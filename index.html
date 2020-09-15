@@ -20,22 +20,25 @@ Released   : 20140208
 	<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900" rel="stylesheet" />
 	<link href="default.css" rel="stylesheet" type="text/css" media="all" />
 	<link href="fonts.css" rel="stylesheet" type="text/css" media="all" />
+	<!-- This makes responsive work in chrome-->
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+
 
 	<!--[if IE 6]><link href="default_ie6.css" rel="stylesheet" type="text/css" /><![endif]-->
 
 </head>
 
 <body>
-	<div id="header-wrapper">
+	<div>
 		<div id="header" class="container">
 			<div id="logo">
 				<h1><a href="#">TeraHelion</a></h1>
 				<span> Solutions</span>
 			</div>
 			<div id="menu">
-				<ul>
+				<ul>			
 					<li class="button"><a href="index.html" accesskey="1" title="">Homepage</a></li>
-					<li class="button"><a href="about.html" accesskey="3" title="">About Us</a></li>
+					<li class="button"><a href="about.html" accesskey="2" title="">About Us</a></li>
 					<li class="button"><a href="contact.html" accesskey="3" title="">Contact Us</a></li>
 				</ul>
 			</div>
@@ -43,11 +46,14 @@ Released   : 20140208
 	</div>
 	<div id="header-featured"> </div>
 	<div id="banner-wrapper">
-		<div id="banner" class="container">
+		<div id="banner" class="info-container">
+			<div></div>
+			<div>
 			<p><strong>TeraHelion</strong> is an Industry 4.0 company founded in 2020. our focus is to deliver complete
 				sensor to cloud solution meshed with intelligent data analytics, machine learning, digital twinning and
 				predictive analysis. </p>
-		</div>
+			</div>
+			<div></div>
 	</div>
 	<div id="wrapper">
 		<div id="featured-wrapper">
@@ -90,7 +96,6 @@ Released   : 20140208
 			<span>Copywrite 2020</span>
 		</div>
 	</div>
-
 </body>
 
 </html>
