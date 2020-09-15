@@ -8,7 +8,7 @@ body
 {
 	margin: 0px;
 	padding: 0px;
-	background: #1B9772;
+	background: #FFFFF;
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 11pt;
 	font-weight: 300;
@@ -950,7 +950,8 @@ ul.contact li a.icon-rss:before
 
 
 .grid-container {
-	display: grid;
+  height: 60vh;
+  display: grid;
 	grid-template-columns: auto auto auto auto; 
 	padding: 10px;
   }
@@ -962,5 +963,4 @@ ul.contact li a.icon-rss:before
 }
 
 .gird-item-border{
-	border: 1px solid rgba(0, 0, 0, 0.8);
 }
