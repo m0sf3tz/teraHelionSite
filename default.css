@@ -378,7 +378,6 @@ ul.contact li a.icon-rss:before
 #header
 {
 	position: relative;
-	height: 100px;
 }
 
 /*********************************************************************************/
@@ -727,7 +726,7 @@ ul.contact li a.icon-rss:before
 	{
 		height: 30em;
 		background-image: url(images/banner.jpg);
-		background-position: center;
+		background-position: top;
 		background-size: cover;
 	}
 
@@ -1032,7 +1031,6 @@ ul.contact li a.icon-rss:before
 .top-container{
   display: flex;
   justify-content: space-between;
-  padding: 10px;
   background-color: black;
 }
 
