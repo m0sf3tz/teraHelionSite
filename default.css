@@ -971,7 +971,8 @@ ul.contact li a.icon-rss:before
 .grid-item {
 	padding: 20px;
 	font-size: 30px;
-	text-align: center;
+	max-width: 250px;
+	margin: auto;
 }
 
 .gird-item-border{
