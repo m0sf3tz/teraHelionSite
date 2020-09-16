@@ -630,7 +630,6 @@ ul.contact li a.icon-rss:before
 
 #featured-wrapper
 {
-	overflow: hidden;
 	padding: 6em 0em;
 	background: #383838;
 	text-align: center;
@@ -963,16 +962,16 @@ ul.contact li a.icon-rss:before
 
 
 .grid-container {
-  height: 60vh;
+  height: auto;
   display: grid;
-	grid-template-columns: auto auto auto auto; 
-	padding: 10px;
+  grid-template-columns: 30px  auto 30px; 
+  padding: 10px;
   }
 
-  .grid-item {
+.grid-item {
 	padding: 20px;
 	font-size: 30px;
-	margin-right: 100;
+	text-align: center;
 }
 
 .gird-item-border{
@@ -1012,7 +1011,7 @@ a:hover{
 	transition: 0.4s;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
  .picture {
        display:none;
      }
