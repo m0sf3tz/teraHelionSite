@@ -999,8 +999,6 @@ a:hover{
   background-color: gray;
 }
 
-
-
 .menu-item{
   font-size:4vw;
   text-decoration: none; 
@@ -1012,4 +1010,10 @@ a:hover{
 	color: black;
 	text-align: center;
 	transition: 0.4s;
+}
+
+@media only screen and (max-width: 600px) {
+ .picture {
+       display:none;
+     }
 }
