@@ -1000,7 +1000,7 @@ a:hover{
 }
 
 .menu-item{
-  font-size:4vw;
+  font-size:2vw, 20px, 50px, 50px;
   text-decoration: none; 
   font-family: 'Source Sans Pro', sans-serif;
   padding: 5px;
@@ -1015,5 +1015,11 @@ a:hover{
 @media only screen and (max-width: 600px) {
  .picture {
        display:none;
+     }
+}
+
+@media screen and (min-width: 1200px) {
+     .menu-item {
+       font-size: 30px;
      }
 }
