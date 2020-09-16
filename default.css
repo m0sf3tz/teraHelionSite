@@ -43,16 +43,6 @@ strong
 {
 }
 
-a
-{
-	color: #2C383B;
-}
-
-a:hover
-{
-	text-decoration: none;
-}
-
 @media screen and (max-width: 600px) {
 .container{
   display: flex;
@@ -165,7 +155,6 @@ ul.style1 a
 
 ul.style1 a:hover
 {
-	text-decoration: underline;
 	color: #525252;
 }
 
@@ -320,14 +309,14 @@ ul.contact li a.icon-rss:before
 
 	.button
 {
-	background-color: 0x0;
+  margin: auto;
+  background-color: 0x0;
 	border: none;
 	color: black;
-	padding: 0em 1.0em;
 	text-align: center;
-	font-size: 16px;
-	margin-left: 1px;
+	font-size: 30px;
 	transition: 0.4s;
+  padding: 20px;
 }
 
 .button:hover
@@ -477,9 +466,6 @@ ul.contact li a.icon-rss:before
 	background: #ECECEC;
 }
 
-#menu li:hover a, #menu li.active a, #menu li.active span
-{
-}
 
 #menu .current_page_item a
 {
@@ -1000,6 +986,29 @@ ul.contact li a.icon-rss:before
 
 .top-container{
 	display: flex;
-	justify-content: space-between; 
-	padding: 10px;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+a:visited, a:link, a:active
+{
+      text-decoration: none;
+}
+
+a:hover{
+  background-color: gray;
+}
+
+.menu-item{
+text-decoration: none; 
+  font-family: 'Source Sans Pro', sans-serif;
+
+  padding: 10px;
+  background-color: 0x0;
+  margin: auto;
+	border: none;
+	color: black;
+	text-align: center;
+	font-size: 30px;
+	transition: 0.4s;
 }
