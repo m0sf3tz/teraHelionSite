@@ -492,7 +492,6 @@ ul.contact li a.icon-rss:before
 {
 	overflow: hidden;
 	padding: 0px 100px;
-	text-align: center;
 	color: rgba(255,255,255,.7);
 }
 
@@ -526,6 +525,15 @@ ul.contact li a.icon-rss:before
 	padding-top: 0.20em;
 	text-transform: uppercase;
 	font-size: 1.2em;
+	color: #A2A2A2;
+}
+
+
+#banner p
+{
+	display: block;
+	padding-top: 0.20em;
+	font-size: 2.0em;
 	color: #A2A2A2;
 }
 
@@ -712,6 +720,9 @@ ul.contact li a.icon-rss:before
 
 
 
+
+
+
 	#header-featured
 	{
 		height: 30em;
@@ -847,6 +858,38 @@ ul.contact li a.icon-rss:before
 	border-top: solid 1px #505050;
 }
 
+
+
+
+
+
+
+
+
+
+/* Create two equal columns that floats next to each other */
+.columnAbout {
+	float: center;
+	width: 550px;
+	padding: 00px;
+  }
+  
+
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+	.columnAbout {
+	  width: 100%;
+	}
+  }
+
+
+
+
+
+
+
+
 /*********************************************************************************/
 /* Footer                                                                        */
 /*********************************************************************************/
@@ -971,7 +1014,7 @@ ul.contact li a.icon-rss:before
 .grid-item {
 	padding: 20px;
 	font-size: 30px;
-	max-width: 250px;
+	max-width: 750px;
 	margin: auto;
 }
 
@@ -984,10 +1027,13 @@ ul.contact li a.icon-rss:before
 	padding: 10px;
 }
 
+
+
 .top-container{
-	display: flex;
+  display: flex;
   justify-content: space-between;
   padding: 10px;
+  background-color: black;
 }
 
 a:visited, a:link, a:active
@@ -997,18 +1043,24 @@ a:visited, a:link, a:active
 
 a:hover{
   background-color: gray;
+  color:  white;
+}
+
+a{
+	color:  #1f7a1f;
 }
 
 .menu-item{
-  font-size:2vw, 20px, 50px, 50px;
+	/* font-size:2vw, 20px, 50px, 50px;    */
+  font-size:20px;
   text-decoration: none; 
   font-family: 'Source Sans Pro', sans-serif;
   padding: 5px;
   background-color: 0x0;
   margin: auto;
 	border: none;
-	color: black;
-	text-align: center;
+	color:  #1f7a1f;
+	text-align: left;
 	transition: 0.4s;
 }
 
@@ -1018,8 +1070,11 @@ a:hover{
      }
 }
 
-@media screen and (min-width: 1200px) {
+
+
+
+@media screen and (min-width: 900px) {
      .menu-item {
-       font-size: 30px;
+       font-size: 25px;
      }
 }
