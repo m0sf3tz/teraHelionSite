@@ -999,16 +999,17 @@ a:hover{
   background-color: gray;
 }
 
-.menu-item{
-text-decoration: none; 
-  font-family: 'Source Sans Pro', sans-serif;
 
-  padding: 10px;
+
+.menu-item{
+  font-size:4vw;
+  text-decoration: none; 
+  font-family: 'Source Sans Pro', sans-serif;
+  padding: 5px;
   background-color: 0x0;
   margin: auto;
 	border: none;
 	color: black;
 	text-align: center;
-	font-size: 30px;
 	transition: 0.4s;
 }
